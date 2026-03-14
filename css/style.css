@@ -334,18 +334,6 @@ ul { list-style: none; }
   display: block;
 }
 
-/* Mobile only: show more of the image (zoom out) while still covering the full hero */
-@media (max-width: 768px) {
-  .hero-bg img {
-    width: 125%;
-    height: 125%;
-    left: -12.5%;
-    top: -12.5%;
-    right: auto;
-    bottom: auto;
-  }
-}
-
 .hero-overlay {
   position: absolute;
   inset: 0;
