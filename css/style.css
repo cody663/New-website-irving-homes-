@@ -1871,10 +1871,12 @@ ul { list-style: none; }
   .financing-badge { width: 100%; padding: 24px; }
 
   .stats-bar .container { grid-template-columns: repeat(2, 1fr); }
+  .stats-bar .stat-item:nth-child(3) { grid-column: 1 / -1; }
 }
 
 @media (max-width: 480px) {
   .stats-bar .container { grid-template-columns: 1fr 1fr; }
+  .stats-bar .stat-item:nth-child(3) { grid-column: 1 / -1; }
   .btn-lg { padding: 14px 28px; font-size: 14px; }
   .process-steps { grid-template-columns: 1fr; }
   .filter-bar { justify-content: center; }
