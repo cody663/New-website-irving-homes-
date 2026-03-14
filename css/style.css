@@ -1095,6 +1095,19 @@ ul { list-style: none; }
   gap: 24px;
 }
 
+/* Core values on mobile: full-width cards, stacked vertically */
+@media (max-width: 768px) {
+  .values-grid--core {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+  .values-grid--core .value-card {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+  }
+}
+
 .value-card {
   background: var(--white);
   border-radius: var(--radius-lg);
