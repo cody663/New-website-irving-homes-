@@ -62,6 +62,12 @@ ul { list-style: none; }
   background: var(--gray-light);
 }
 
+.section--sickkids {
+  background: #e8f5f0;
+  border-top: 4px solid var(--green-accent);
+  border-bottom: 4px solid var(--green-accent);
+}
+
 .section--dark {
   background: var(--green-dark);
   color: var(--white);
@@ -1592,15 +1598,22 @@ ul { list-style: none; }
 
 .sickkids-banner {
   display: flex;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 56px;
+  justify-content: space-between;
+  gap: 48px;
   flex-wrap: wrap;
   padding-block: 24px;
 }
 
+.sickkids-copy {
+  flex: 1 1 400px;
+  min-width: 0;
+}
+
 .sickkids-logo-wrap {
   flex: 0 0 auto;
+  order: 2;
 }
 
 .sickkids-logo-wrap img {
@@ -1609,18 +1622,8 @@ ul { list-style: none; }
   display: block;
 }
 
-.sickkids-copy {
-  flex: 0 1 520px;
-}
-
 .sickkids-copy .section-title {
   margin-bottom: 12px;
-}
-
-@media (min-width: 900px) {
-  .sickkids-copy .section-title {
-    white-space: nowrap;
-  }
 }
 
 .testimonial-author {
