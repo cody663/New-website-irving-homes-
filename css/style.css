@@ -657,6 +657,13 @@ ul { list-style: none; }
   color: var(--white);
 }
 
+.project-group {
+  margin-bottom: 56px;
+}
+.project-group:last-child {
+  margin-bottom: 0;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
