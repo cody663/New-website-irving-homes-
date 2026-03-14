@@ -350,6 +350,20 @@ ul { list-style: none; }
   display: block;
 }
 
+/* Mobile only: zoom out image content so more of photo is visible; hero stays 100% covered via overflow hidden */
+@media (max-width: 768px) {
+  .hero-bg img {
+    width: 130%;
+    height: 130%;
+    left: -15%;
+    top: -15%;
+    right: auto;
+    bottom: auto;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
