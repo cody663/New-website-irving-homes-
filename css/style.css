@@ -1603,7 +1603,7 @@ ul { list-style: none; }
   justify-content: space-between;
   gap: 48px;
   flex-wrap: wrap;
-  padding-block: 24px;
+  padding-block: 36px;
 }
 
 .sickkids-copy {
@@ -1617,12 +1617,17 @@ ul { list-style: none; }
 }
 
 .sickkids-logo-wrap img {
-  max-width: 180px;
+  max-width: 220px;
   height: auto;
   display: block;
 }
 
 .sickkids-copy .section-title {
+  margin-bottom: 12px;
+}
+
+.sickkids-copy .section-subtitle {
+  max-width: 720px;
   margin-bottom: 12px;
 }
 
