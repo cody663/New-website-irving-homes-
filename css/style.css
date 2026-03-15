@@ -350,16 +350,21 @@ ul { list-style: none; }
   display: block;
 }
 
-.hero-img-mobile {
-  display: none;
+/* Desktop: only show picture (main.avif/main.jpg); hide mobile image */
+.hero-bg .hero-img-mobile {
+  display: none !important;
+}
+.hero-bg .hero-img-desktop {
+  display: block !important;
 }
 
+/* Mobile: only show mobile-hero.png; hide desktop picture */
 @media (max-width: 768px) {
   .hero-bg .hero-img-desktop {
-    display: none;
+    display: none !important;
   }
   .hero-bg .hero-img-mobile {
-    display: block;
+    display: block !important;
   }
 }
 
