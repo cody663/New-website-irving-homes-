@@ -353,8 +353,10 @@ ul { list-style: none; }
 /* Mobile: zoom out (scale image up from center); overflow hidden keeps hero 100% filled */
 @media (max-width: 768px) {
   .hero-bg img {
-    transform: scale(1.5);
+    transform: scale(2);
+    -webkit-transform: scale(2);
     transform-origin: center center;
+    -webkit-transform-origin: center center;
   }
 }
 
