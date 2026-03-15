@@ -350,14 +350,6 @@ ul { list-style: none; }
   display: block;
 }
 
-/* Mobile only: zoom out (scale down so more of image visible) */
-@media (max-width: 768px) {
-  .hero-bg img {
-    transform: scale(0.3);
-    transform-origin: center center;
-  }
-}
-
 .hero-overlay {
   position: absolute;
   inset: 0;
