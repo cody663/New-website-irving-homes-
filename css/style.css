@@ -350,10 +350,10 @@ ul { list-style: none; }
   display: block;
 }
 
-/* Mobile only: zoom out (scale up from center so more of image visible); overflow hidden keeps hero fully covered */
+/* Mobile only: zoom out (scale down so more of image visible) */
 @media (max-width: 768px) {
   .hero-bg img {
-    transform: scale(2.2);
+    transform: scale(0.3);
     transform-origin: center center;
   }
 }
