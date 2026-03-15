@@ -350,6 +350,14 @@ ul { list-style: none; }
   display: block;
 }
 
+/* Mobile: zoom out (scale image up from center); overflow hidden keeps hero 100% filled */
+@media (max-width: 768px) {
+  .hero-bg img {
+    transform: scale(1.5);
+    transform-origin: center center;
+  }
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
