@@ -350,6 +350,19 @@ ul { list-style: none; }
   display: block;
 }
 
+.hero-img-mobile {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero-bg .hero-img-desktop {
+    display: none;
+  }
+  .hero-bg .hero-img-mobile {
+    display: block;
+  }
+}
+
 .hero-overlay {
   position: absolute;
   inset: 0;
