@@ -350,14 +350,15 @@ ul { list-style: none; }
   display: block;
 }
 
-/* Mobile: zoom out — show more of image (contain); hero-bg fill keeps section fully covered */
+/* Mobile: zoom out (scale up from center so more of image visible) while still filling hero */
 @media (max-width: 768px) {
   .hero-bg img {
-    object-fit: contain;
+    object-fit: cover;
     object-position: center center;
-  }
-  .hero-bg {
-    background: var(--charcoal);
+    transform: scale(1.25);
+    -webkit-transform: scale(1.25);
+    transform-origin: center center;
+    -webkit-transform-origin: center center;
   }
 }
 
