@@ -355,8 +355,8 @@ ul { list-style: none; }
   .hero-bg img {
     object-fit: cover;
     object-position: center center;
-    transform: scale(1.25);
-    -webkit-transform: scale(1.25);
+    transform: scale(1.55);
+    -webkit-transform: scale(1.55);
     transform-origin: center center;
     -webkit-transform-origin: center center;
   }
