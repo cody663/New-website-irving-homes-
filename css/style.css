@@ -1682,6 +1682,11 @@ ul { list-style: none; }
   margin-bottom: 12px;
 }
 
+.sickkids-copy strong {
+  color: #000;
+  font-weight: 800;
+}
+
 .testimonial-author {
   display: flex;
   align-items: center;
