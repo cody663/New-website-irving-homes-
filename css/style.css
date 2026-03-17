@@ -1895,6 +1895,7 @@ ul { list-style: none; }
 
   .stats-bar .container { grid-template-columns: repeat(2, 1fr); }
   .stats-bar .stat-item:nth-child(3) { grid-column: 1 / -1; }
+  .book-expect-grid { grid-template-columns: 1fr !important; }
 }
 
 @media (max-width: 480px) {
