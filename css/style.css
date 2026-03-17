@@ -27,7 +27,7 @@
   --transition:    0.3s ease;
 
   --max-width:     1200px;
-  --nav-height:    80px;
+  --nav-height:    110px;
 }
 
 /* --- Reset & Base --- */
@@ -221,7 +221,7 @@ ul { list-style: none; }
 }
 
 .nav-logo img {
-  height: 52px;
+  height: 104px;
   width: auto;
   filter: drop-shadow(0 2px 8px rgba(0,0,0,0.4));
 }
@@ -1868,7 +1868,7 @@ ul { list-style: none; }
 }
 
 @media (max-width: 768px) {
-  :root { --nav-height: 68px; }
+  :root { --nav-height: 90px; }
 
   .section { padding: 72px 0; }
 
